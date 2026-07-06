@@ -1,11 +1,38 @@
-inner_diameter=760;
+module_width=100;
+module_height=50;
+
+margin=0.002;
+
+//placeholder to cut out space for the relay timer module
+module module_placeholder(module_width, module_height, module_depth=25) {
+    cube([module_width, module_height, module_depth]);
+}
+
+//overall box
+
+//cut outs for power cables
+
+//brackets with mounting holes
+
+//cut in half
+
+//lip to fit one half into the other (include a channel for a seal?
+
+//screw posts in bottom half
+
+//screw holes in top half
+
+module_placeholder(module_width, module_height);
+
+/*inner_diameter=760;
 pond_thickness=39;
 wall_thickness=2;
 margin=0.002;
 total_arc=8;
 rim_height=3*25.4;
+*/
 
-color("#BBBBBB")
+/*color("#BBBBBB")
 difference() {
     linear_extrude(height=rim_height+wall_thickness, center=false)
         arc((inner_diameter/2)-wall_thickness, (inner_diameter+2*pond_thickness)/2+wall_thickness, 0, total_arc);
@@ -46,4 +73,4 @@ module arc(r1, r2, a1, a2, $fn=128) {
       inner = [ for (i=[0:k]) [ r0 * cos(b - s*i/k), r0 * sin(b - s*i/k) ] ];
       polygon(concat(outer, inner));
   }
-} 
+} */
