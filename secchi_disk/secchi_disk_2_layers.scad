@@ -2,8 +2,8 @@ use <MCAD/2Dshapes.scad>;
 
 base_height = 2;
 segment_height = 1;
-disk_radius = 50;
-hole_radius = 4;
+disk_radius = 15;
+hole_radius = 2;
 num_segments = 4;
 color("black") ;
 difference() {

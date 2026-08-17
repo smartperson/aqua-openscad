@@ -7,8 +7,13 @@ Aqua OpenSCAD by Varun Mehta is marked CC0 1.0. To view a copy of this mark, vis
 
 ### Secchi Disk
 
-![Rendering of a 4-segment secchi disk from the repo](/secchi_disk/secchi_disk_2_layers.png)
+![Rendering of a 4-segment secchi disk from the repo](./secchi_disk/secchi_disk_2_layers.png)
+![Rendering of a rod for the secchi disk that has centimeter markings](./secchi_disk/secchi_rod_w_numbers.png)
+
+![Photo of fully-assembled secchi disk with rod](./secchi_disk/secchi_disk_assembled.jpg)
 
 Meant for measuring the turbidity (cloudiness) of water. Useful for green water cultures where you want to track how cloudy/dense it gets. Designed with a hole so you can mount it to a dowel, with depth measurements.
 
 Note on printing: this is meant to be a two-material print. You might need to tell your slicing software to switch to black filament for the top layers, which are raised and intended to be printed in black on top of the white base material.
+
+Note on assembly: the uploaded be design is meant to be assembled using a self-tapping M3 screw up to 15mm in length. Use a screwdriver and patience to avoid bending the rod.
